@@ -1,0 +1,10 @@
+body{
+    background-color: aqua;
+}
+section{
+    overflow: hidden;
+    background-color: antiquewhite;
+}
+div{
+    float: left;
+}
