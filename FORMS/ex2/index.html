@@ -57,6 +57,15 @@
             
             
         }
+        input:valid,
+        textarea:valid{
+            border-bottom: 1px solid green;
+
+        }
+        input:invalid,
+        textarea:invalid{
+            border-bottom: 1px solid red;
+        }
     </style>
 
 </head>
@@ -79,6 +88,13 @@
 
            </div>
            <br />
+           <div>
+            <label for="email">Email:</label>
+            <br />
+            <input type="email" name="email" id="email" placeholder="Your email" required />
+
+        </div>
+        <br />
 
            <div>
             <label for="country">Country:</label>
@@ -94,7 +110,7 @@
         </div>
         <div>
             <label for="message">Message:</label> <br />
-            <textarea name="message" id="message" cols="20" rows="5" placeholder="Hallo there..."></textarea>
+            <textarea name="message" id="message" cols="20" rows="5" placeholder="Hallo there..." required /></textarea>
         </div>
            <button type="submit">Submit</button>
         </fieldset>
