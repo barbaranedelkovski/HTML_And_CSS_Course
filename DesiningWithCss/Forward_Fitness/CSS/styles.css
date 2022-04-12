@@ -159,6 +159,14 @@ footer p a {
 .round {
   border-radius: 8px;
 }
+
+/* Tablet viewport: Show tablet -desktop class, hide mobile class */
+.tablet-desktop {
+  display: block;
+}
+.mobile {
+  display: none;
+}
 /*
 #exercises {
   clear: left;
